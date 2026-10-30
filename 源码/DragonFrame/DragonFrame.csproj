@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><Nullable>enable</Nullable><ImplicitUsings>disable</ImplicitUsings><AssemblyName>DragonFrame</AssemblyName><ApplicationIcon>dragon.ico</ApplicationIcon><Version>1.7.4</Version><ServerGarbageCollection>false</ServerGarbageCollection></PropertyGroup>
+<ItemGroup><ProjectReference Include="../XamlAnimatedGif/XamlAnimatedGif.csproj"/><Resource Include="logo.ico"/><Resource Include="dragon.ico"/><Content Include="dragon.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/></ItemGroup>
+</Project>
+
+
+
+
+
+
